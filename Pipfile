@@ -17,7 +17,7 @@ psycopg2-binary = "*"
 whitenoise = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
 
 [pipenv]
 allow_prereleases = true

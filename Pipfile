@@ -11,6 +11,10 @@ black = "*"
 requests = "*"
 django = "*"
 pylint-django = "*"
+gunicorn = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+whitenoise = "*"
 
 [requires]
 python_version = "3.7"

@@ -5,16 +5,15 @@ verify_ssl = true
 
 [dev-packages]
 pylint = "*"
+pylint-django = "*"
 black = "*"
 
 [packages]
-requests = "*"
 django = "*"
-pylint-django = "*"
 gunicorn = "*"
 dj-database-url = "*"
-psycopg2-binary = "*"
 whitenoise = "*"
+black = "*"
 
 [requires]
 python_version = "3.8"

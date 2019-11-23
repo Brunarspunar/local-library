@@ -133,6 +133,7 @@ DATABASES = {
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES["default"].update(db_from_env)
 
-# Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
+
+ALLOWED_HOSTS = ["local-library-rusk.herokuapp.com", "127.0.0.1"]
 
